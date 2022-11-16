@@ -11,4 +11,19 @@
     text-align: center;
     background-color: rgba(187, 187, 187, 0.5);
     padding: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+li{
+    margin: 20px 15px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li:hover {
+    color: red;
+    transform: scale(1.1);
+
 }
