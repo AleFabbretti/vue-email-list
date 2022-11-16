@@ -5,7 +5,10 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        mails : []
       }
+    },
+   
+
     }
   }).mount('#app')
